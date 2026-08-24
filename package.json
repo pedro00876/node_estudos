@@ -1,0 +1,21 @@
+{
+  "name": "node_estudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro00876/node_estudos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pedro00876/node_estudos/issues"
+  },
+  "homepage": "https://github.com/pedro00876/node_estudos#readme"
+}
