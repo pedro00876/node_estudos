@@ -1,7 +1,9 @@
 import http from "http";
 
 const server = http.createServer((req, res) => {
-  return res.end("Hello World!");
+  const {method} = req
+
+  return res.writeHead(200).end("method: " + method)
 });
 
 
